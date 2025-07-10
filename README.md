@@ -20,24 +20,25 @@ A minimal FastAPI server for running **Mistral-7B-Instruct-v0.3** locally with G
 - Python 3.13+
 - `pip` and `venv`
 
-1. **Clone the repo**
+**Clone the repo**
 
 ```bash
 git clone https://github.com/mahlqvist/mistral-7b-fastapi-chat.git
 cd mistral-7b-fastapi-chat
 ```
 
-2. **Install dependencies**
+**Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Download the model**
+**Download the model**
 
 Place your GGUF model in `models/`:
+
 ```bash
-mkdir -p models
+mkdir models
 cd models
 wget https://huggingface.co/second-state/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf
    ```
@@ -77,7 +78,7 @@ curl -X POST -d '{"text":"Explain quantum computing in 3 sentences"}' -H "Conten
 ## Project Structure
 
 ```
-mistral-fastapi/
+mistral-7b-fastapi-chat/
 ├── app/
 │   ├── main.py          # FastAPI routes
 │   ├── model.py         # Mistral-7B wrapper
