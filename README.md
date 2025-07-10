@@ -23,9 +23,9 @@ A minimal FastAPI server for running **Mistral-7B-Instruct-v0.3** locally with G
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/yourusername/mistral-fastapi.git
-cd mistral-fastapi
-   ```
+git clone https://github.com/mahlqvist/mistral-7b-fastapi-chat.git
+cd mistral-7b-fastapi-chat
+```
 
 2. **Install dependencies**
 
